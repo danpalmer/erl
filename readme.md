@@ -59,7 +59,7 @@ url =
 {url | path = ["users", "1"] }
 
 -- Modify path by appending segments
-Erl.appendPathSegments url ["users", "1"]
+Erl.appendPathSegments ["users", "1"] url
 
 -- Modify hash
 {url | hash = "users/1" }
